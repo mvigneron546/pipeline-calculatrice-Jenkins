@@ -12,7 +12,6 @@ pipeline {
                 stash(name: 'compiled-results', includes: 'sources/*.py*')
             }
         }
-        he following lines to your Jenkinsfile and update the Jenkinsfile with Git.
 
         stage('Test') {
             agent {
